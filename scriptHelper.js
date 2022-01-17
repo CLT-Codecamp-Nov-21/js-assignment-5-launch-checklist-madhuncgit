@@ -17,16 +17,14 @@ function addDestinationInfo(document, name, diameter, star, distance, moons, ima
 }
 
 function validateInput(testInput) {
-   
+
 }
 
 function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
-   
 }
 
 async function myFetch() {
     let planetsReturned;
-
     planetsReturned = await fetch().then( function(response) {
         });
 
@@ -34,6 +32,7 @@ async function myFetch() {
 }
 
 function pickPlanet(planets) {
+
 }
 
 module.exports.addDestinationInfo = addDestinationInfo;
